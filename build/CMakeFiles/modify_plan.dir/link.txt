@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o -o modify_plan  /usr/lib/libmavsdk_action.so.0.37.0 /usr/lib/libmavsdk_mission.so.0.37.0 /usr/lib/libmavsdk_telemetry.so.0.37.0 /usr/lib/libmavsdk.so.0.37.0 -lpthread 
