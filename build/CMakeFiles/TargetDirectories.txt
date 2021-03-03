@@ -1,3 +1,0 @@
-/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles/rebuild_cache.dir
-/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles/modify_plan.dir
-/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles/edit_cache.dir
