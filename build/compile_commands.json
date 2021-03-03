@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build",
+  "command": "/usr/bin/c++ -isystem /usr/include/mavsdk -g   -Wall -Wextra -std=gnu++1z -o CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o -c /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp",
+  "file": "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp"
+}
+]
