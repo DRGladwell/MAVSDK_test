@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp" "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o"
+  "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/main.cpp" "/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles/modify_plan.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

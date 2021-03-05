@@ -142,32 +142,32 @@ modify_plan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/build
 .PHONY : modify_plan/fast
 
-modify_mission_plan.o: modify_mission_plan.cpp.o
+main.o: main.cpp.o
 
-.PHONY : modify_mission_plan.o
+.PHONY : main.o
 
 # target to build an object file
-modify_mission_plan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o
-.PHONY : modify_mission_plan.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-modify_mission_plan.i: modify_mission_plan.cpp.i
+main.i: main.cpp.i
 
-.PHONY : modify_mission_plan.i
+.PHONY : main.i
 
 # target to preprocess a source file
-modify_mission_plan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.i
-.PHONY : modify_mission_plan.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-modify_mission_plan.s: modify_mission_plan.cpp.s
+main.s: main.cpp.s
 
-.PHONY : modify_mission_plan.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-modify_mission_plan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.s
-.PHONY : modify_mission_plan.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modify_plan.dir/build.make CMakeFiles/modify_plan.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... modify_plan"
-	@echo "... modify_mission_plan.o"
-	@echo "... modify_mission_plan.i"
-	@echo "... modify_mission_plan.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

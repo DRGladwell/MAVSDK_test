@@ -76,27 +76,27 @@ include CMakeFiles/modify_plan.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/modify_plan.dir/flags.make
 
-CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o: CMakeFiles/modify_plan.dir/flags.make
-CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o: ../modify_mission_plan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o -c /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp
+CMakeFiles/modify_plan.dir/main.cpp.o: CMakeFiles/modify_plan.dir/flags.make
+CMakeFiles/modify_plan.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/modify_plan.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modify_plan.dir/main.cpp.o -c /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/main.cpp
 
-CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp > CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.i
+CMakeFiles/modify_plan.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modify_plan.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/main.cpp > CMakeFiles/modify_plan.dir/main.cpp.i
 
-CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp -o CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.s
+CMakeFiles/modify_plan.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modify_plan.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/main.cpp -o CMakeFiles/modify_plan.dir/main.cpp.s
 
 # Object files for target modify_plan
 modify_plan_OBJECTS = \
-"CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o"
+"CMakeFiles/modify_plan.dir/main.cpp.o"
 
 # External object files for target modify_plan
 modify_plan_EXTERNAL_OBJECTS =
 
-modify_plan: CMakeFiles/modify_plan.dir/modify_mission_plan.cpp.o
+modify_plan: CMakeFiles/modify_plan.dir/main.cpp.o
 modify_plan: CMakeFiles/modify_plan.dir/build.make
 modify_plan: /usr/lib/libmavsdk_action.so.0.37.0
 modify_plan: /usr/lib/libmavsdk_mission.so.0.37.0

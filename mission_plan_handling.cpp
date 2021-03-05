@@ -76,6 +76,9 @@ int main(int argc, char** argv)
 
     {
 
+        my_name_pointer = myname*
+        myname = my_name_pointer&
+
         // CONNECT TO NEW UAV (SYSTEM)
         auto prom = std::make_shared<std::promise<void>>();
         auto future_result = prom->get_future();

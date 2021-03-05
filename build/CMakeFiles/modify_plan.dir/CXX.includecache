@@ -6,19 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan.cpp
-mavsdk/mavsdk.h
+/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/main.cpp
+uav_health.cpp
+/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/uav_health.cpp
+modify_mission_plan2.cpp
+/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan2.cpp
+stdio.h
 -
-mavsdk/plugins/action/action.h
--
-mavsdk/plugins/mission/mission.h
--
-mavsdk/plugins/telemetry/telemetry.h
--
-functional
--
-future
+vector
 -
 iostream
 -
+utility
+-
+
+/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/modify_mission_plan2.cpp
+utility
+-
+vector
+-
+stdio.h
+-
+
+/home/david/visual_studio_projects/UAV_MAVSDK_WORKSPACE_CPP/uav_health.cpp
 
